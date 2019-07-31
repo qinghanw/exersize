@@ -9,4 +9,5 @@ my_list = []
 for i in range(SIZE):
     new_item = random.randrange(SIZE*2)
     bisect.insort(my_list, new_item)
+    #print(new_item, my_list)
     print('%2d ->' % new_item, my_list)

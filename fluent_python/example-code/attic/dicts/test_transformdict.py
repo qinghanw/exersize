@@ -1,8 +1,8 @@
 """Unit tests for transformdict.py."""
 
 import unittest
-from test import support
-from test import mapping_tests
+from send import support
+from send import mapping_tests
 import pickle
 import copy
 from functools import partial
